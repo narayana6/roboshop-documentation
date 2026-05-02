@@ -44,6 +44,7 @@ Restart the service
 systemctl restart mongod
 ```
 
+`````
  root@ip-172-31-32-61 ~ ]# netstat -lntp
 Active Internet connections (only servers)
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
@@ -51,4 +52,4 @@ tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      
 tcp        0      0 0.0.0.0:27017           0.0.0.0:*               LISTEN      14362/mongod
 tcp6       0      0 :::22                   :::*                    LISTEN      1257/sshd: /usr/sbi
 
-```
+``````
